@@ -2,7 +2,7 @@
 
 ## 1. Giới thiệu dự án
 
-Dự án **Tabular Machine Learning** được xây dựng nhằm nghiên cứu và ứng dụng các thuật toán học máy trên dữ liệu dạng bảng (Tabular Data).
+Dự án **Dự đoán đơn hàng có nguy cơ giao trễ trong chuỗi cung ứng.** được xây dựng nhằm nghiên cứu và ứng dụng các thuật toán học máy trên dữ liệu dạng bảng (Tabular Data).
 
 Đề tài tập trung vào việc phân tích dữ liệu chuỗi cung ứng và xây dựng mô hình Machine Learning để dự đoán tình trạng giao hàng dựa trên các đặc trưng của đơn hàng.
 

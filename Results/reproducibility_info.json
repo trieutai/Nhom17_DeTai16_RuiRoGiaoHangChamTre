@@ -1,0 +1,45 @@
+{
+    "Thoi_gian_chay": "2026-11-16 14:55:23",
+    "Random_state": 42,
+    "Train_samples": 15000,
+    "Test_samples": 5000,
+    "Python_version": "3.13.7",
+    "Pandas_version": "3.1.1",
+    "NumPy_version": "2.5.5",
+    "Scikit_learn_version": "1.9.1",
+    "Train_test_split": {
+        "test_size": 0.2,
+        "random_state": 42,
+        "stratify": true
+    },
+    "Models": {
+        "KNN": {
+            "n_neighbors": [
+                5,
+                9
+            ],
+            "weights": "uniform",
+            "metric": "minkowski",
+            "p": 2
+        },
+        "Decision_Tree": {
+            "max_depth": [
+                10,
+                20
+            ],
+            "min_samples_split": 2,
+            "random_state": 42
+        }
+    },
+    "Pipelines": [
+        "Pipeline A",
+        "Pipeline B"
+    ],
+    "Evaluation_metrics": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "F1-score",
+        "Confusion Matrix"
+    ]
+}
